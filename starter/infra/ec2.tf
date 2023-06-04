@@ -48,5 +48,4 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.ssh_access.id]
   subnet_id              = module.vpc.public_subnet_ids[0]
-  key_name               = "udacity"
 }

@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "project-3-sre-toanld" # Update here with your S3 bucket
+    bucket = "udacity-tf-<first_name>" # Update here with your S3 bucket
     key    = "terraform/terraform.tfstate"
     region = "us-east-2"
   }
