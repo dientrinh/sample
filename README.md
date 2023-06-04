@@ -20,7 +20,7 @@ The AWS environment will be built in the `us-east-2` region of AWS
 1. Set up your AWS credentials from Udacity AWS Gateway locally
     - `https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html`
 
-2. From the AWS console manually create an S3 bucket in `us-east-2` called `udacity-tf-<your_name>`
+2. From the AWS console manually create an S3 bucket in `us-east-2` called `udacity-tf-dientv1`
    e.g `udacity-tf-emmanuel`
     - The click `create bucket`
     - Update `_config.tf` with your S3 bucket name
